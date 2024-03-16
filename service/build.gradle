@@ -1,0 +1,20 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+apply from:'../dependencies.gradle'
+
+android {
+    namespace 'com.example.service'
+
+
+    defaultConfig {
+        applicationId "com.example.service"
+    }
+
+
+}
+
+dependencies {
+    api project(path:':common')
+}

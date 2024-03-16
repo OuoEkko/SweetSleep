@@ -1,0 +1,18 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+apply from:'../dependencies.gradle'
+
+android {
+    namespace 'com.example.home'
+
+    defaultConfig {
+        applicationId "com.example.home"
+    }
+
+}
+
+dependencies {
+
+}
